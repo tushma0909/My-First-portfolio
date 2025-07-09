@@ -68,7 +68,40 @@ nav ul{
     font-size: 85px;
 }
 
-
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 /* .banner-profilr-pic{ */
 
+/* main style */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.section-title{
+    font-size : 35px;
+    font-weight : bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+/* About styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+    max-width: 780px;
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.item-description{
+    font-weight: 600;
 }
