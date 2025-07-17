@@ -115,7 +115,7 @@ main section{
     text-align: center;
 }
 /* skill style */
-.skils-containner{
+.skils-containner {
     display: flex;
     gap: 24px;
 
@@ -143,8 +143,7 @@ main section{
     margin: 30px 5px;
 
 }
-. resume-download-cv
-{
+. resume-download-cv{
     margin-top: 50px;
 }
 /* footer style */
@@ -167,4 +166,39 @@ footer input[type="text"],footer textarea {
     padding: 10px 20px;
     margin-bottom: 24px;
     border:none;
+    }
+    /* responsive media query */
+    @media screen and (max-width:576px) {
+        .skils-containner{
+            flex-direction: column;
+            background-color: aquamarine;
+        }
+        .resume-containner,nav, nav >ul,  footer, .about-items,.banner{
+            flex-direction: column;
+        }
+        footer, .about{
+            padding: 20px;
+        }
+        .footer-coloumn{
+            width: 100%;
+        }
+        footer input[type="text"],footer textarea{
+            width:(100%- 40px);
+        }
+        .banner{
+            margin: 20px;
+        }
+        .header{
+            background-image: none;
+        }
+        .banner-profile-pic{
+
+        }
+        nav>ul{
+            gap :20px;
+        }
+    }
+    /* tablet media query */
+    @media screen and  (min-width:576px) and (max-width:912px){
+        
     }
